@@ -1,1 +1,1 @@
-Se agrega a proyecto final lo aprendido con SASS
+Se agrego descripción de cada página.
