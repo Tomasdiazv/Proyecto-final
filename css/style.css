@@ -13,11 +13,11 @@
   gap: 2em; }
 
 .grid div {
-  background: #ecf0f1;
+  background: #7f8181;
   padding: 1em; }
 
 .grid div:hover {
-  border: 2px solid #A1AAAB; }
+  border: 2px solid #6a6b6b; }
 
 .element1 {
   grid-column: 1/3; }
@@ -25,14 +25,20 @@
 .index__navegacion {
   border-width: 3px;
   border-style: solid;
-  border-color: #011FE6;
+  border-color: #ffffff;
   text-align: end;
   list-style-type: none;
   padding-top: 10px;
-  background-color: #E6C805; }
+  background-color: #444443; }
 
 body {
-  font-family: 'Kalam', cursive; }
+  font-family: 'Kalam', cursive;
+  background-image: url(/imagenes/Meteor.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 12em; }
 
 .tarjeta__imagen, .tarjeta__imagen--nuevo {
   border-width: 5px;
@@ -44,28 +50,32 @@ body {
 .tarjeta__Titulo {
   text-align: center;
   padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  color: #ffffff; }
 
 .tarjeta__productos {
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
-  font-size: 40px; }
+  font-size: 40px;
+  color: white; }
 
 .tarjeta__imagen--nuevo {
   border-style: double;
   border-color: #D3DFE0;
   border-radius: 20px; }
 
-.fondo {
-  margin: auto;
-  display: block; }
-
+/*   .fondo {
+    margin: auto;
+    display: block;
+    width: 100%;
+  } */
 .tarjeta__descripcion {
   text-align: center;
   margin: auto;
   padding-bottom: 30px;
-  font-size: 20px; }
+  font-size: 20px;
+  color: white; }
 
 .redes {
   width: 60px; }
@@ -75,7 +85,9 @@ body {
   text-align: end; }
 
 #Descripcion {
-  display: block; }
+  display: block;
+  color: white;
+  font-size: 25px; }
 
 /*     select {
       margin: auto;
@@ -94,3 +106,27 @@ select {
 .fondo {
   height: 900px;
   width: 1900px; }
+
+.index {
+  font-family: 'Kalam', cursive;
+  background-image: url(/imagenes/Fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.form-label {
+  color: white; }
+
+.form-check-label {
+  color: white; }
+
+.iframe {
+  display: block;
+  margin: 0px auto; }
+
+.footer {
+  background-color: #577c70;
+  padding: 1em 0;
+  text-align: end;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }

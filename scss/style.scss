@@ -14,11 +14,11 @@ $redes: (texto1: 20px, texto2: 40px, texto3: 60px);
     gap: 2em; }
   
   .grid div {
-    background: #ecf0f1;
+    background: #7f8181;
     padding: 1em; }
   
   .grid div:hover {
-    border: 2px solid #A1AAAB; }
+    border: 2px solid #6a6b6b; }
   
   .element1 {
     grid-column: 1/3; }
@@ -26,15 +26,22 @@ $redes: (texto1: 20px, texto2: 40px, texto3: 60px);
   .index__navegacion {
     border-width: 3px;
     border-style: solid;
-    border-color: #011FE6;
+    border-color: #ffffff;
     text-align: end;
     list-style-type: none; 
     padding-top: $alto/2;
-    background-color: #E6C805;
+    background-color: #444443;
   }
   
   body {
-    font-family: 'Kalam', cursive;}
+    font-family: 'Kalam', cursive;
+    background-image: url(/imagenes/Meteor.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 12em;
+  }
   
   .tarjeta__imagen {
     border-width: 5px;
@@ -48,6 +55,7 @@ $redes: (texto1: 20px, texto2: 40px, texto3: 60px);
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px; 
+    color: #ffffff;
   }
 
   .tarjeta__productos {
@@ -55,6 +63,7 @@ $redes: (texto1: 20px, texto2: 40px, texto3: 60px);
     padding-top: 15px;
     padding-bottom: 15px; 
     font-size: $alto*2;
+    color: white;
   }
 
   .tarjeta__imagen--nuevo {
@@ -64,16 +73,18 @@ $redes: (texto1: 20px, texto2: 40px, texto3: 60px);
     border-radius: 20px;
   }
 
-  .fondo {
+/*   .fondo {
     margin: auto;
     display: block;
-  }
+    width: 100%;
+  } */
 
   .tarjeta__descripcion {
     text-align: center;
     margin: auto;
     padding-bottom: 30px;
     font-size: $alto;
+    color: white;
    }
   
   .redes {
@@ -85,7 +96,10 @@ $redes: (texto1: 20px, texto2: 40px, texto3: 60px);
     text-align: end; }
   
   #Descripcion {
-    display: block; }
+    display: block; 
+    color: white;
+    font-size: 25px;
+  }
   
   /*     select {
       margin: auto;
@@ -109,4 +123,31 @@ $redes: (texto1: 20px, texto2: 40px, texto3: 60px);
     @include size(1900px,900px)
   }
 
-  
+  .index {
+    font-family: 'Kalam', cursive;
+    background-image: url(/imagenes/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.form-label {
+  color: white;
+}
+
+.form-check-label {
+  color: white;
+}
+
+.iframe {
+display: block;
+margin: 0px auto;
+}
+
+.footer {
+  background-color: rgb(87, 124, 112);
+  padding: 1em 0;
+  text-align: end;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

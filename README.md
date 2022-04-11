@@ -1,1 +1,0 @@
-Se agrego descripción de cada página.
